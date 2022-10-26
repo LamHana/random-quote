@@ -1,0 +1,59 @@
+.quote-dialog {
+  max-width: 600px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+}
+
+.quote-background {
+  width: 300px;
+}
+.quote-box {
+  background-color: palevioletred;
+  border-radius: 5px;
+  padding: 40px;
+}
+.quote-content {
+  /* padding: 10px; */
+}
+.quote-text {
+  /* padding: 10px; */
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Patrick Hand;
+}
+.quote-author {
+  text-align: right;
+  font-size: 16px;
+  font-family: Patrick Hand;
+  /* padding-right: 10px; */
+}
+.quote-button {
+  display: flex;
+  direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  /* align-items: ; */
+}
+.button,
+.button a {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #fff;
+  height: 38px;
+  cursor: pointer;
+}
+
+.quote-button_media a {
+  text-decoration: none;
+}
+
+#facebook-quote {
+  margin-right: 10px;
+}
+
+#new-quote:hover {
+}
